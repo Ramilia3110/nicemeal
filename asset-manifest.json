@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/nicemeal/static/css/main.ef026e44.chunk.css",
+    "main.js": "/nicemeal/static/js/main.ea735141.chunk.js",
+    "main.js.map": "/nicemeal/static/js/main.ea735141.chunk.js.map",
+    "runtime-main.js": "/nicemeal/static/js/runtime-main.6ece5a0c.js",
+    "runtime-main.js.map": "/nicemeal/static/js/runtime-main.6ece5a0c.js.map",
+    "static/js/2.47705147.chunk.js": "/nicemeal/static/js/2.47705147.chunk.js",
+    "static/js/2.47705147.chunk.js.map": "/nicemeal/static/js/2.47705147.chunk.js.map",
+    "index.html": "/nicemeal/index.html",
+    "precache-manifest.a2e6301b00557f42a869347d8b3cceb7.js": "/nicemeal/precache-manifest.a2e6301b00557f42a869347d8b3cceb7.js",
+    "service-worker.js": "/nicemeal/service-worker.js",
+    "static/css/main.ef026e44.chunk.css.map": "/nicemeal/static/css/main.ef026e44.chunk.css.map",
+    "static/js/2.47705147.chunk.js.LICENSE": "/nicemeal/static/js/2.47705147.chunk.js.LICENSE",
+    "static/media/chef.jpg": "/nicemeal/static/media/chef.6a5b427c.jpg",
+    "static/media/header.jpg": "/nicemeal/static/media/header.38d13b55.jpg",
+    "static/media/p1.jpg": "/nicemeal/static/media/p1.b04db001.jpg",
+    "static/media/p2.jpg": "/nicemeal/static/media/p2.f2f493ec.jpg",
+    "static/media/p3.jpg": "/nicemeal/static/media/p3.4f549847.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6ece5a0c.js",
+    "static/js/2.47705147.chunk.js",
+    "static/css/main.ef026e44.chunk.css",
+    "static/js/main.ea735141.chunk.js"
+  ]
+}
