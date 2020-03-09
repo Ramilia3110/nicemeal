@@ -1,0 +1,11 @@
+.App {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  min-height: 100vh;
+}
+
+.hidden {
+  display: none;
+  font-size: 7rem;
+}
