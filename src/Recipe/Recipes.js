@@ -19,6 +19,9 @@ const Styles = styled.div`
     font-size: 1.3rem;
   }
 
+  input {
+    text-align: center;
+  }
   .search-button {
     background: rgb(9, 158, 89);
     border: none;
@@ -46,7 +49,7 @@ const Recipes = () => {
 
   const [recipes, setRecipes] = useState([]);
   const [search, setSearch] = useState("");
-  const [query, setQuery] = useState(" ");
+  const [query, setQuery] = useState("cake");
 
   useEffect(() => {
     getRecipes();
@@ -80,6 +83,7 @@ const Recipes = () => {
             type="text"
             value={search}
             onChange={handleSearch}
+            placeholder="e.g. chicken"
           />
           <button className="search-button" type="submit">
             Search

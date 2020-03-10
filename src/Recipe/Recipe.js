@@ -15,6 +15,9 @@ const Styles = styled.div`
     background-color: white;
     width: 100%;
     border-radius: 3rem;
+    padding: 2rem;
+    p {
+    }
   }
   @media (min-width: 992px) {
     .recipe-img {
