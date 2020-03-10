@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "846d4cbb0048eaa8e2422521ea4d0414",
+    "revision": "ba7ef00c18bb4b354d4a97b80cfde90a",
     "url": "/nicemeal/index.html"
   },
   {
-    "revision": "85e4cdaea601c3f79a19",
+    "revision": "3b7aab0622d2b8a6f6fb",
     "url": "/nicemeal/static/css/main.ef026e44.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/nicemeal/static/js/2.c83b737b.chunk.js.LICENSE"
   },
   {
-    "revision": "85e4cdaea601c3f79a19",
-    "url": "/nicemeal/static/js/main.569e5ab3.chunk.js"
+    "revision": "3b7aab0622d2b8a6f6fb",
+    "url": "/nicemeal/static/js/main.d7ddc1f4.chunk.js"
   },
   {
     "revision": "f857ae1ccddd942a76f8",
