@@ -6,7 +6,7 @@ import About from "./About";
 import Socialmedia from "./Socialmedia";
 import Footer from "./Footer";
 import "./App.css";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { HashRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
   return (
