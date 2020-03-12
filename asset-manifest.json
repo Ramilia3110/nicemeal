@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/nicemeal/static/css/main.ef026e44.chunk.css",
-    "main.js": "/nicemeal/static/js/main.d7ddc1f4.chunk.js",
-    "main.js.map": "/nicemeal/static/js/main.d7ddc1f4.chunk.js.map",
+    "main.js": "/nicemeal/static/js/main.653d5001.chunk.js",
+    "main.js.map": "/nicemeal/static/js/main.653d5001.chunk.js.map",
     "runtime-main.js": "/nicemeal/static/js/runtime-main.6ece5a0c.js",
     "runtime-main.js.map": "/nicemeal/static/js/runtime-main.6ece5a0c.js.map",
     "static/js/2.c83b737b.chunk.js": "/nicemeal/static/js/2.c83b737b.chunk.js",
     "static/js/2.c83b737b.chunk.js.map": "/nicemeal/static/js/2.c83b737b.chunk.js.map",
     "index.html": "/nicemeal/index.html",
-    "precache-manifest.cfb22c29939e6236b3e58ab2a48e2a49.js": "/nicemeal/precache-manifest.cfb22c29939e6236b3e58ab2a48e2a49.js",
+    "precache-manifest.46c081d048e3fec4e51cc25fda62c865.js": "/nicemeal/precache-manifest.46c081d048e3fec4e51cc25fda62c865.js",
     "service-worker.js": "/nicemeal/service-worker.js",
     "static/css/main.ef026e44.chunk.css.map": "/nicemeal/static/css/main.ef026e44.chunk.css.map",
     "static/js/2.c83b737b.chunk.js.LICENSE": "/nicemeal/static/js/2.c83b737b.chunk.js.LICENSE",
@@ -22,6 +22,6 @@
     "static/js/runtime-main.6ece5a0c.js",
     "static/js/2.c83b737b.chunk.js",
     "static/css/main.ef026e44.chunk.css",
-    "static/js/main.d7ddc1f4.chunk.js"
+    "static/js/main.653d5001.chunk.js"
   ]
 }
