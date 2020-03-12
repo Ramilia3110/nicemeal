@@ -5,7 +5,7 @@ const Styles = styled.div`
   .footer {
     color: white;
     text-align: center;
-    font-size: 1rem;
+    font-size: 0.7rem;
     letter-spacing: 0.25rem;
     padding: 3rem auto;
     margin: 2rem auto;

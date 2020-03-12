@@ -13,7 +13,7 @@ function App() {
       <Nav />
       <Router>
         <div className="App">
-          <p className="hidden"> Hidden text ghghjhjkjkj </p>
+          <p className="hidden"> Hidden text </p>
           <div style={{ marginTop: "84px" }}></div>
           <Switch>
             <Route path="/" exact component={Home} />

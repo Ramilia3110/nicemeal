@@ -6,16 +6,21 @@ import p2 from "../images/p2.jpg";
 import p3 from "../images/p3.jpg";
 
 const Styles = styled.div`
+.container{
+  width:100vw;
+  overflow:hidden;
+}
   .section {
     background-color: white;
-    margin: 8rem 3rem 1rem 3rem;
+    margin: 8rem 1rem 1rem 1rem;
     padding: 12rem auto;
     &-heading {
-        margin: 3rem auto;
-        font-size: 3.5rem;
+        margin: 1.5rem auto;
+        font-size: 2rem;
+        padding-top:2rem;
         letter-spacing: 0.35rem;
         font-weight: 300;
-        color: #182E0B  ;
+        color: #182E0B;
       }
   }
  
@@ -23,17 +28,20 @@ const Styles = styled.div`
    min-height: 100vh;
   }
   .col-1-of-2 {
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    width: 90%;
+    margin:0 auto;
+    height:100%;
+    text-align: center;
     h3 {
         margin: 1.5rem auto;
         padding: 1rem 1rem;
-        font-size:2rem;
+        font-size:1.5rem;
         font-weight:300;
+      }
+      p{
+        font-size:1rem;
+        line-height:1.5rem;
+        padding:0 .3rem;
       }
   }
   
@@ -55,6 +63,19 @@ const Styles = styled.div`
     }
   }
   @media (min-width: 992px) {
+
+    .section {
+      background-color: white;
+      padding: 12rem auto;
+      &-heading {
+          margin: 2rem auto;
+          padding-top:3rem;
+          font-size: 3rem;
+          letter-spacing: 0.35rem;
+        }
+    }
+   
+
     .row {
       display: grid;
       grid-template-rows: min-content;
@@ -67,11 +88,14 @@ const Styles = styled.div`
       grid-column: first-start/first-end;
 
       h3 {
-        padding: 1.2rem 1rem;
+        padding: 3rem .5rem 1rem .5rem;
+        font-weight:300;
        
       }
       p{
+          font-size:1rem;
           line-height:1.7rem;
+          padding:1rem 1.5rem .5rem 1.5rem;
       }
     }
     .col-2-of-2 {
@@ -109,50 +133,46 @@ const Styles = styled.div`
 const Section = () => {
   return (
     <Styles>
-      <div className="section">
-        <h2 className="section-heading">
-          Positive atmosphere with healthy food.
-        </h2>
-        <div className="row">
-          <div className="col-1-of-2">
-            <h3>Make your food incredible, tasty and healthy.</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              image compasition nisi ut aliquip ex ea commodo consequat. Duis
-              aute irure dolor in reprehenderit in voluptate velit esse cillum
-              dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-              non proident, sunt in culpa qui officia deserunt mollit anim id
-              est laborum.
-            </p>
+      <div className="container">
+        <div className="section">
+          <h2 className="section-heading">
+            Positive atmosphere with healthy food.
+          </h2>
+          <div className="row">
+            <div className="col-1-of-2">
+              <h3>Make your food incredible, tasty and healthy.</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                image compasition nisi ut aliquip ex ea commodo consequat. Duis
+                aute irure dolor in reprehenderit in voluptate velit esse cillum
+              </p>
 
-            <h3>Make your food incredible, tasty and healthy.</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              image compasition nisi ut aliquip ex ea commodo consequat. Duis
-              aute irure dolor in reprehenderit in voluptate velit esse cillum
-              dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-              non proident, sunt in culpa qui officia deserunt mollit anim id
-              est laborum.
-            </p>
-          </div>
-          <div className="col-2-of-2">
-            <div className="composition">
-              <img
-                src={p3}
-                className="composition__photo composition__photo--1"
-              />
-              <img
-                src={p1}
-                className="composition__photo composition__photo--2"
-              />
-              <img
-                src={p2}
-                className="composition__photo composition__photo--3"
-              />
+              <h3>Make your food incredible, tasty and healthy.</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                image compasition nisi ut aliquip ex ea commodo consequat. Duis
+                aute irure dolor in reprehenderit in voluptate velit esse cillum
+              </p>
+            </div>
+            <div className="col-2-of-2">
+              <div className="composition">
+                <img
+                  src={p3}
+                  className="composition__photo composition__photo--1"
+                />
+                <img
+                  src={p1}
+                  className="composition__photo composition__photo--2"
+                />
+                <img
+                  src={p2}
+                  className="composition__photo composition__photo--3"
+                />
+              </div>
             </div>
           </div>
         </div>

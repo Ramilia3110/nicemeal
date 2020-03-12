@@ -21,7 +21,9 @@ const Styles = styled.div`
     }
   }
   .social {
-      margin 1rem 1rem;
+    height:1rem;
+    width:1rem;
+      margin: 1rem 1rem;
       transition:transform .25s ease;
       display:inline-block;
       &:hover{

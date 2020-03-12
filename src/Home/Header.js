@@ -17,11 +17,15 @@ const Styles = styled.div`
   .header h1 {
     color: white;
     font-weight: 300;
-    font-size: 3.8rem;
+    font-size: 3rem;
     text-transform: uppercase;
     line-height: 4.2rem;
   }
   @media (min-width: 992px) {
+    .header {
+      width: 100vw;
+      overflow: hidden;
+    }
     .header h1 {
       font-size: 5rem;
     }
