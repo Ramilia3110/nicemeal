@@ -69,12 +69,6 @@ const Nav = () => {
                 Recipes
               </a>
             </li>
-            <li>
-              {" "}
-              <a className="link" href="/about">
-                About us
-              </a>
-            </li>
           </ul>
         </nav>
       </div>

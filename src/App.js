@@ -2,7 +2,6 @@ import React from "react";
 import Recipes from "./Recipe/Recipes";
 import Nav from "./Nav";
 import Home from "./Home/Home";
-import About from "./About";
 import Socialmedia from "./Socialmedia";
 import Footer from "./Footer";
 import "./App.css";
@@ -18,7 +17,6 @@ function App() {
           <div style={{ marginTop: "84px" }}></div>
           <Switch>
             <Route path="/" exact component={Home} />
-            <Route path="/about" exact component={About} />
             <Route path="/recipes" component={Recipes} />
           </Switch>
         </div>
