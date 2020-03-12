@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 const Styles = styled.div`
   .recipe-container {
-    margin: 0 0.5rem 3rem 0.5rem;
+    margin: 0 auto;
     width: 100%;
   }
   .recipe-img {
@@ -15,8 +15,8 @@ const Styles = styled.div`
     background-color: white;
     width: 100%;
     border-radius: 3rem;
-    padding: 2rem;
     p {
+      padding: 2rem;
     }
   }
   @media (min-width: 992px) {

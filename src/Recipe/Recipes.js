@@ -6,15 +6,16 @@ const Styles = styled.div`
   .search-form {
     min-height: 10vh;
     display: flex;
-    justify-content: start;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
   }
 
   .search-bar {
-    width: 45%;
+    width: 100%;
     height: 7vh;
     border: none;
-    margin: 2em 1em;
+    margin: 1rem auto;
     border-radius: 3em;
     font-size: 1.3rem;
   }
@@ -26,20 +27,38 @@ const Styles = styled.div`
     background: rgb(9, 158, 89);
     border: none;
     border-radius: 3em;
-    padding: 10px 30px;
+    padding: 10px 60px;
     color: white;
     font-size: 1.3rem;
+    margin-bottom: 3.5rem;
   }
 
   .recipes-blog {
-    width: 80%;
-    margin: 0 auto;
+    width: 90%;
+    margin: 2rem auto;
   }
   .recipes {
-    display: flex;
-    justify-content: space-between;
-    align-items: start;
-    flex-wrap: wrap;
+    width: 100%;
+  }
+  @media (min-width: 992px) {
+    .search-form {
+      flex-direction: row;
+    }
+
+    .search-bar {
+      width: 45%;
+      height: 7vh;
+      border: none;
+      margin: 2em 1em;
+      border-radius: 3em;
+      font-size: 1.3rem;
+    }
+    .recipes {
+      display: flex;
+      justify-content: space-between;
+      align-items: start;
+      flex-wrap: wrap;
+    }
   }
 `;
 
