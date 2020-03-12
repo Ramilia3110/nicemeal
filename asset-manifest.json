@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/nicemeal/static/css/main.ef026e44.chunk.css",
-    "main.js": "/nicemeal/static/js/main.653d5001.chunk.js",
-    "main.js.map": "/nicemeal/static/js/main.653d5001.chunk.js.map",
+    "main.css": "/nicemeal/static/css/main.6cdd2c4b.chunk.css",
+    "main.js": "/nicemeal/static/js/main.19df7379.chunk.js",
+    "main.js.map": "/nicemeal/static/js/main.19df7379.chunk.js.map",
     "runtime-main.js": "/nicemeal/static/js/runtime-main.6ece5a0c.js",
     "runtime-main.js.map": "/nicemeal/static/js/runtime-main.6ece5a0c.js.map",
     "static/js/2.c83b737b.chunk.js": "/nicemeal/static/js/2.c83b737b.chunk.js",
     "static/js/2.c83b737b.chunk.js.map": "/nicemeal/static/js/2.c83b737b.chunk.js.map",
     "index.html": "/nicemeal/index.html",
-    "precache-manifest.46c081d048e3fec4e51cc25fda62c865.js": "/nicemeal/precache-manifest.46c081d048e3fec4e51cc25fda62c865.js",
+    "precache-manifest.9fc5543fe969afc51e8e95e0bfe67fa9.js": "/nicemeal/precache-manifest.9fc5543fe969afc51e8e95e0bfe67fa9.js",
     "service-worker.js": "/nicemeal/service-worker.js",
-    "static/css/main.ef026e44.chunk.css.map": "/nicemeal/static/css/main.ef026e44.chunk.css.map",
+    "static/css/main.6cdd2c4b.chunk.css.map": "/nicemeal/static/css/main.6cdd2c4b.chunk.css.map",
     "static/js/2.c83b737b.chunk.js.LICENSE": "/nicemeal/static/js/2.c83b737b.chunk.js.LICENSE",
     "static/media/chef.jpg": "/nicemeal/static/media/chef.6a5b427c.jpg",
     "static/media/header.jpg": "/nicemeal/static/media/header.38d13b55.jpg",
@@ -21,7 +21,7 @@
   "entrypoints": [
     "static/js/runtime-main.6ece5a0c.js",
     "static/js/2.c83b737b.chunk.js",
-    "static/css/main.ef026e44.chunk.css",
-    "static/js/main.653d5001.chunk.js"
+    "static/css/main.6cdd2c4b.chunk.css",
+    "static/js/main.19df7379.chunk.js"
   ]
 }
